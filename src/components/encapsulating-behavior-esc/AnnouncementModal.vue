@@ -25,8 +25,8 @@ import { Vue, Component, Prop } from "vue-property-decorator"
 export default class extends Vue {
   @Prop() readonly show: boolean
 	
-  created() {
-    const escapeHandler = e => {
+  created(): void {
+    const escapeHandler = (e: KeyboardEvent): void => {
       if (e.key === "Escape" && this.show) {
         this.dismiss()
       }
@@ -37,7 +37,7 @@ export default class extends Vue {
     })
   }
 
-	dismiss() {
+	dismiss(): void {
 		this.$emit("close")
 	}
 }

@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import UserSettingsForm from '@/components/custom-controlled-components/UserSettingsForm.vue'; 
+import UserSettingsForm from '@/components/wrap-ext-lib/DatePickerForm.vue'; 
 
 @Component({
   components: {

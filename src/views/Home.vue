@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import UserSettingsForm from '@/components/encapsulating-ext-behavior-reusable-portal/Container.vue'; 
+import UserSettingsForm from '@/components/injecting-content-using-slots/Container.vue'; 
 
 @Component({
   components: {

@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import UserSettingsForm from '@/components/encapsulating-ext-behavior-esc/Container.vue'; 
+import UserSettingsForm from '@/components/encapsulating-ext-behavior/Container.vue'; 
 
 @Component({
   components: {
